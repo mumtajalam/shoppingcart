@@ -12,7 +12,7 @@ const ContextCart = () => {
         <header>
           <div className="continue-shopping">
             <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
-            <h3>Shopping Cart</h3>
+            <h3>mobile shopping here</h3>
           </div>
 
           <div className="cart-icon">
@@ -36,7 +36,7 @@ const ContextCart = () => {
       <header>
         <div className="continue-shopping">
           <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
-          <h3>Shopping Cart</h3>
+          <h3>mobile shopping here</h3>
         </div>
 
         <div className="cart-icon">
