@@ -12,17 +12,17 @@ const ContextCart = () => {
         <header>
           <div className="continue-shopping">
             <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
-            <h3>Continue Shopping</h3>
+            <h3>Shopping Cart</h3>
           </div>
 
           <div className="cart-icon">
             <img src="./images/cart.png" alt="cart" />
-            <p>0</p>
+            <p>{totalItem}</p>
           </div>
         </header>
 
         <section className="main-cart-section">
-          <h1>shopping Cart</h1>
+          <h1>Ecommerce Cart</h1>
           <p className="total-items">
             you have <span className="total-items-count">{totalItem}</span>{" "}
             items in shopping Cart
@@ -36,7 +36,7 @@ const ContextCart = () => {
       <header>
         <div className="continue-shopping">
           <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
-          <h3>Continue Shopping</h3>
+          <h3>Shopping Cart</h3>
         </div>
 
         <div className="cart-icon">
@@ -46,7 +46,7 @@ const ContextCart = () => {
       </header>
 
       <section className="main-cart-section">
-        <h1>shopping Cart</h1>
+        <h1>Ecommerce Cart</h1>
         <p className="total-items">
           you have <span className="total-items-count">{totalItem}</span> items
           in shopping Cart
@@ -63,7 +63,7 @@ const ContextCart = () => {
         </div>
         <div className="card-total">
           <h3>
-            Cart Total : <span>{totalAmount}rs</span>
+            Cart Total : <span>{totalAmount}₹</span>
           </h3>
           <button>CHECKOUT</button>
           <button className="clear-cart" onClick={ClearCart}>

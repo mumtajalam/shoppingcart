@@ -1,5 +1,5 @@
 export const reducer = (state, action) => {
-  if (action.type === "RREMOVE_ITEM") {
+  if (action.type === "REMOVE_ITEM") {
     return {
       ...state,
       item: state.item.filter((temp) => {
