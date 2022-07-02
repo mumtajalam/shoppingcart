@@ -346,6 +346,8 @@ header {
   .price,
   .remove-item {
     padding-left: 2rem;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .items-info .product-img {
